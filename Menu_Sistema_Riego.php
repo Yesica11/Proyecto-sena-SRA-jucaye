@@ -13,24 +13,24 @@
         <nav>
           <ul>
             <li>
-              <a href="Menu_Principal_Suelo.html"
-                ><img class="inicio" src="src/assets/img/logos/inicio.png"
+              <a href="Menu_Principal_Suelo.php"
+                ><img class="inicio" src="src/assets/img/logos/home.png"
               /></a>
-              <a href="Menu_Principal_Suelo.html">Inicio</a>
+              <a href="Menu_Principal_Suelo.php">Inicio</a>
             </li>
            
             <li>
-              <a href="src/registros/Registro_Cultivo.html"
+              <a href="src/registros/Registro_Cultivo.php"
                 ><img class="riegohoja" src="src/assets/img/logos/hojas.png"
               /></a>
-              <a href="src/registros/Registro_Cultivo.html">Registrar</a>
+              <a href="src/registros/Registro_Cultivo.php">Registrar</a>
             </li>
             
             <li>
-              <a href="index.html"
+              <a href="index.php"
                 ><img class="cerrarlogo" src="src/assets/img/logos/cerrar.png"
               /></a>
-              <a href="index.html">Cerrar</a>
+              <a href="index.php">Cerrar</a>
             </li>
           </ul>
         </nav>
@@ -55,7 +55,7 @@
             </div>
            
           <br>
-              <a class="vermas" href="src/cultivos/Cultivo_Cilantro.html">Ver Mas</a>
+              <a class="vermas" href="src/cultivos/Cultivo_Cilantro.php">Ver Mas</a>
           </div>
 
           <div class="contcultivos">
@@ -70,7 +70,7 @@
               </p>
             </div>
           <br>
-              <a class="vermas" href="src/cultivos/Cultivo_Cebolla.html">Ver Mas</a>
+              <a class="vermas" href="src/cultivos/Cultivo_Cebolla.php">Ver Mas</a>
           </div>
 
           <div class="contcultivos">
@@ -85,7 +85,7 @@
               </p>
             </div>
           <br>
-              <a class="vermas" href="src/cultivos/Cultivo_Papa.html">Ver Mas</a>
+              <a class="vermas" href="src/cultivos/Cultivo_Papa.php">Ver Mas</a>
           </div>
 
           <div class="contcultivos">
@@ -100,7 +100,7 @@
               </p>
             </div>
           <br>
-              <a class="vermas" href="src/cultivos/Cultivo_Yuca.html">Ver Mas</a>
+              <a class="vermas" href="src/cultivos/Cultivo_Yuca.php">Ver Mas</a>
           </div>
         </div>
       </section>

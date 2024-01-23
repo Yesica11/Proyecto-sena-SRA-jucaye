@@ -14,17 +14,17 @@
         <nav>
           <ul>
             <li>
-              <a href="../../Menu_Sistema_Riego.html">
-                <img class="logoinicio" src="../assets/img/logos/inicio.png"/>
+              <a href="../../Menu_Sistema_Riego.php">
+                <img class="logoinicio" src="../assets/img/logos/home.png"/>
               </a>
-              <a href="../../Menu_Sistema_Riego.html">Inicio</a>
+              <a href="../../Menu_Sistema_Riego.php">Inicio</a>
             </li>
 
             <li>
-              <a href="../../Menu_Sistema_Riego.html">
+              <a href="../../Menu_Sistema_Riego.php">
                 <img class="logocerrar" src="../assets/img/logos/cerrar.png" />
               </a>
-              <a href="../../Menu_Sistema_Riego.html">Cerrar</a>
+              <a href="../../Menu_Sistema_Riego.php">Cerrar</a>
             </li>
           </ul>
         </nav>
@@ -46,14 +46,16 @@
             name="nombre"
             required
           />
-
+<br>
+<br>
           <label for="tipoRiego">Tipo de Riego:</label>
           <select class="selectc" id="tipoRiego" name="tipoRiego">
             <option value="riego1">Riego 1</option>
             <option value="riego2">Riego 2</option>
             <option value="riego3">Riego 3</option>
           </select>
-
+          <br>
+          <br>
           <label for="fechaInicio">Fecha de Inicio:</label>
           <input
             class="fechac"
@@ -62,8 +64,9 @@
             name="fechaInicio"
             required
           />
-
-          <label for="fechaFin">Fecha de Estimada de Fin:</label>
+          <br>
+          <br>
+          <label for="fechaFin">Fecha Estimada de Finalizacion:</label>
           <input
             class="fechac"
             type="date"
@@ -71,7 +74,8 @@
             name="fechaFin"
             required
           />
-
+          <br>
+          <br>
           <label for="tipo">Tipo:</label>
           <input class="tipoc" type="text" id="tipo" name="tipo" required />
 

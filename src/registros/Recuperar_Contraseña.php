@@ -16,7 +16,7 @@
           </div>
           <h4>Recuperar Contraseña</h4>
           <form>
-            <label for="username">Nombre de Usuario</label>
+            <label for="username">Nombre:</label>
             <input
               class="name"
               type="text"
@@ -24,8 +24,9 @@
               name="username"
               required
             />
-
-            <label for="birthdate" >Fecha de Nacimiento</label>
+            <br>
+            <br>
+            <label for="birthdate" >Fecha de Nacimiento:</label>
             <input
               class="date"
               type="date"
@@ -33,8 +34,9 @@
               name="birthdate"
               required
             />
-
-            <label for="role">Rol</label>
+            <br>
+            <br>
+            <label for="role">Rol:</label>
             <select class="rol" id="role" name="role" required>
               <option value="admin">Administrador</option>
               <option value="user">Usuario</option></select
@@ -44,7 +46,7 @@
             <button class="btn" type="submit">Recuperar</button>
           </form>
           <br />
-          <a class="volver" href="../../login.html">Volver</a>
+          <a class="volver" href="../../login.php">Volver</a>
         </div>
       </div>
     </body>

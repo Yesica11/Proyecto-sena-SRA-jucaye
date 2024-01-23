@@ -13,22 +13,22 @@
         <nav>
           <ul>
             <li>
-              <a href="../../Menu_Principal_Suelo.html"
-                ><img class="iniciologo" src="../assets/img/logos/inicio.png"
+              <a href="../../Menu_Principal_Suelo.php"
+                ><img class="iniciologo" src="../assets/img/logos/home.png"
               /></a>
-              <a href="../../Menu_Principal_Suelo.html">Inicio</a>
+              <a href="../../Menu_Principal_Suelo.php">Inicio</a>
             </li>
             <li>
-              <a href="../../Menu_Sistema_Riego.html"
+              <a href="../../Menu_Sistema_Riego.php"
                 ><img class="riego" src="../assets/img/logos/riego.png"
               /></a>
-              <a href="../../Menu_Sistema_Riego.html">Riego</a>
+              <a href="../../Menu_Sistema_Riego.php">Riego</a>
             </li>
             <li>
-              <a href="../../Menu_Sistema_Riego.html"
+              <a href="../../Menu_Sistema_Riego.php"
                 ><img class="cerrarlogo" src="../assets/img/logos/cerrar.png"
               /></a>
-              <a href="../../Menu_Sistema_Riego.html">Cerrar</a>
+              <a href="../../Menu_Sistema_Riego.php">Cerrar</a>
             </li>
           </ul>
         </nav>

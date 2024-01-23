@@ -29,7 +29,8 @@
             name="cedula"
             required
           />
-
+          <br>
+          <br>
           <label for="nombres">Nombre:</label>
           <input
             class="nombre"
@@ -38,7 +39,8 @@
             name="nombres"
             required
           />
-
+          <br>
+          <br>
           <label for="apellidos">Apellido:</label>
           <input
             class="apellido"
@@ -47,7 +49,8 @@
             name="apellidos"
             required
           />
-
+          <br>
+          <br>
           <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
           <input
             class="fechan"
@@ -56,7 +59,8 @@
             name="fecha_nacimiento"
             required
           />
-
+          <br>
+          <br>
           <label for="contrasena">Contraseña:</label>
           <input
             class="clave"
@@ -65,18 +69,20 @@
             name="contrasena"
             required
           />
-          <label for="roldusuario">Tipo de Rold:</label>
-
+          <br>
+          <br>
+          <label for="roldusuario">Tipo de Rol:</label>
           <select class="tiporol" id="tiporold" name="tiporold">
             <option value="rold1">Administrador</option>
             <option value="rold2">Usuario</option>
           </select>
 
-          <br /><br />
+          <br>
+          <br>
           <button class="boton" type="submit">Registrar</button>
           <br />
           <br />
-          <a class="inicio" href="../../login.html">login</a>
+          <a class="inicio" href="../../login.php">Volver</a>
         </form>
       </div>
     </div>

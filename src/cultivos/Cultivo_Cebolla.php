@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/css/modulos.css" />
-    <title>Cultivo de Papa</title>
+    <title>Cultivo de Cebolla</title>
   </head>
   <body>
     <header class="headerinicio">
@@ -13,29 +13,29 @@
         <nav>
           <ul>
             <li>
-              <a href="../../Menu_Principal_Suelo.html"
-                ><img class="iniciologo" src="../assets/img/logos/inicio.png"
+              <a href="../../Menu_Principal_Suelo.php"
+                ><img class="iniciologo" src="../assets/img/logos/home.png"
               /></a>
-              <a href="../../Menu_Principal_Suelo.html">Inicio</a>
+              <a href="../../Menu_Principal_Suelo.php">Inicio</a>
             </li>
             <li>
-              <a href="../../Menu_Sistema_Riego.html"
+              <a href="../../Menu_Sistema_Riego.php"
                 ><img class="riego" src="../assets/img/logos/riego.png"
               /></a>
-              <a href="../../Menu_Sistema_Riego.html">Riego</a>
+              <a href="../../Menu_Sistema_Riego.php">Riego</a>
             </li>
             <li>
-              <a href="../../Menu_Sistema_Riego.html"
+              <a href="../../Menu_Sistema_Riego.php"
                 ><img class="cerrarlogo" src="../assets/img/logos/cerrar.png"
               /></a>
-              <a href="../../Menu_Sistema_Riego.html">Cerrar</a>
+              <a href="../../Menu_Sistema_Riego.php">Cerrar</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
     <div >
-      <h1>Cultivo de Papa</h1>
+      <h1>Cultivo de Cebolla</h1>
       <div>
         <div class="contenedor">
           <div class="camara">

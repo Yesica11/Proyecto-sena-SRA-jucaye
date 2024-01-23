@@ -15,18 +15,18 @@
           <nav>
             <ul>
               <li>
-                <a href="Login.html"
+                <a href="Login.php"
                   ><img class="userlogo" src="src/assets/img/logos/inicio.png"
                 /></a>
-                <a href="Login.html">Inicio Sesion</a>
+                <a href="Login.php">Inicio Sesion</a>
               </li>
               <li>
-                <a href="src/registros/Registro_usuario.html"
+                <a href="src/registros/Registro_usuario.php"
                   ><img
                     class="registrarlogo"
                     src="src/assets/img/logos/registro.png"
                 /></a>
-                <a href="src/registros/Registro_usuario.html">Registrar</a>
+                <a href="src/registros/Registro_usuario.php">Registrar</a>
               </li>
             </ul>
           </nav>
@@ -61,7 +61,6 @@
             <p>Yesica Patricia Vargas Rivera</p>
             <p>Cristian Andres Jose Camperos Acevedo</p>
             <p>Juan Sebastian Niño Arias</p>
-            
             <br />
             <img
               class="jucaye"
@@ -71,17 +70,35 @@
           </div>
         </div>
       </div>
-      <br>
+      <br />
       <footer>
         <nav>
           <ul>
-            <li><a><img class="whatsapp" src="src/assets/img/logos/whatsapp.png"></a>Whatsapp</li>
-            <li><a><img class="facebook" src="src/assets/img/logos/facebook.png"></a>Facebook</li>
-            <li><a><img class="instagram" src="src/assets/img/logos/instagram.png"></a>Instagram</li>
+            <li>
+              <a
+                ><img
+                  class="whatsapp"
+                  src="src/assets/img/logos/whatsapp.png" /></a
+              >Whatsapp
+            </li>
+            <li>
+              <a
+                ><img
+                  class="facebook"
+                  src="src/assets/img/logos/facebook.png" /></a
+              >Facebook
+            </li>
+            <li>
+              <a
+                ><img
+                  class="instagram"
+                  src="src/assets/img/logos/instagram.png" /></a
+              >Instagram
+            </li>
           </ul>
         </nav>
-        <br>
-        <p> &copy; JUCAYE 2023</p>
+        <br />
+        <p>&copy; JUCAYE 2023</p>
       </footer>
     </main>
   </body>
