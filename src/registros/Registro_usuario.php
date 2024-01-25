@@ -20,7 +20,7 @@
         </div>
         <h3>Ingresar Datos</h3>
 
-        <form action="#" method="post">
+        <form action="../../admin/registro_usuario.php" method="post">
           <label for="cedula">Cédula de Identidad:</label>
           <input
             class="cedula"
@@ -84,6 +84,12 @@
           <br />
           <a class="inicio" href="../../login.php">Volver</a>
         </form>
+        <?php
+        if(isset($_POST['cedula'])&& isset($_POST['nombres'])&& isset($_POST['apellidos'])&& isset($_POST['fecha_nacimiento'])&& isset($_POST['contrasena']))
+
+        require_once "../includes/config/database.php"
+        ?>
+       
       </div>
     </div>
   </body>
