@@ -20,7 +20,7 @@
         </div>
         <h3>Ingresar Datos</h3>
 
-        <form action="../../admin/registro_usuario.php" method="post">
+        <form action="../../admin/clases/Clase_Registro_Usuario.php" method="post">
           <label for="cedula">Cédula de Identidad:</label>
           <input
             class="cedula"
@@ -61,6 +61,16 @@
           />
           <br>
           <br>
+          <label for="direccion">Direccion:</label>
+          <input
+            class="direccion"
+            type="text"
+            id="direccion"
+            name="direccion"
+            required
+          />
+          <br>
+          <br>
           <label for="contrasena">Contraseña:</label>
           <input
             class="clave"
@@ -72,9 +82,9 @@
           <br>
           <br>
           <label for="roldusuario">Tipo de Rol:</label>
-          <select class="tiporol" id="tiporold" name="tiporold">
-            <option value="rold1">Administrador</option>
-            <option value="rold2">Usuario</option>
+          <select class="tiporol" id="tiporol" name="tiporol">
+            <option value="1">Administrador</option>
+            <option value="2">Usuario</option>
           </select>
 
           <br>
@@ -84,12 +94,7 @@
           <br />
           <a class="inicio" href="../../login.php">Volver</a>
         </form>
-        <?php
-        if(isset($_POST['cedula'])&& isset($_POST['nombres'])&& isset($_POST['apellidos'])&& isset($_POST['fecha_nacimiento'])&& isset($_POST['contrasena']))
-
-        require_once "../includes/config/database.php"
-        ?>
-       
+      
       </div>
     </div>
   </body>

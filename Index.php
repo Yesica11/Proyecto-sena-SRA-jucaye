@@ -34,7 +34,7 @@
       </div>
     </header>
     <main>
-      <div class="container1">
+      <div>
         <h1>Sistema de Control de Riego para la Finca La Seiba</h1>
         <div class="contenido">
           <div class="informacionSRA">

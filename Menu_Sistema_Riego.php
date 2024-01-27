@@ -27,8 +27,8 @@
             </li>
             
             <li>
-              <a href="index.php"
-                ><img class="cerrarlogo" src="src/assets/img/logos/cerrar.png"
+              <a href="Index.php"
+                ><img class="logocerrar" src="src/assets/img/logos/cerrar.png"
               /></a>
               <a href="index.php">Cerrar</a>
             </li>
