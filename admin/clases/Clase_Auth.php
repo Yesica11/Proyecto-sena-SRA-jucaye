@@ -32,7 +32,6 @@ class Auth {
         $stmt->bindParam(':creado_en', $fecha_hoy, PDO::PARAM_STR);
         $stmt->bindParam(':actualizado_en', $fecha_hoy, PDO::PARAM_STR);    
         $stmt->bindParam(':tiporol', $rol, PDO::PARAM_STR);
-
         
        /*Ejecutar la consulta*/
         if ($stmt->execute()) {

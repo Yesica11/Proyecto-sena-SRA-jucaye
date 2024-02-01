@@ -23,10 +23,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     /*Insertar nuevo usuario a la base de datos */
 
     if ($Auth->Registro_Usuario($cedula, $nombre, $apellido, $fecha_nacimiento, $direccion, $encriptar_clave, $rol)) {
-        header ("Location: ../../Login.php");
-
-        exit();
+       header ("Location: ../../Login.php");
     }else {
-        echo "Error al registrar usuario";
+        $_SESSION ["Error"] = 'Registro de Usuario Incorrecto ☺️';
+        header("location:../../src/regirtos/Registro_usuario.php");
+        exit();
     }
 }
