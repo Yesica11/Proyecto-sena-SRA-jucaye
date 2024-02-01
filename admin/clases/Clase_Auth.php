@@ -1,5 +1,5 @@
 <?php
-require_once "../../includes/conexionbasedate.php";
+require_once "../includes/conexionbasedate.php";
 
 //clase para autenticar usuarios
 

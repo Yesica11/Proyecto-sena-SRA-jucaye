@@ -19,14 +19,8 @@
           <img src="../assets/img/SRA-logo.png" alt="" />
         </div>
         <h3>Ingresar Datos</h3>
-        <?php
-      session_start();
-      if (isset($_SESSION["Error"])) {
-        echo "<h3> {$_SESSION["Error"]}</h3>";
-        unset($_SESSION["Error"]);
-      }
-      ?>
-        <form action="../../admin/clases/Clase_Registro_Usuario.php" method="post">
+     
+        <form action="../../admin/Registro_Usuario.php" method="post">
           <label for="cedula">Cédula de Identidad:</label>
           <input
             class="cedula"
